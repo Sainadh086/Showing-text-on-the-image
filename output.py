@@ -20,5 +20,5 @@ for i in range(row_count):
             img_gray[i][j] = 255
 import matplotlib.pyplot as plt
 plt.imshow(img_gray)
-#cv2.imwrite('img_text.png',img_gray)
+cv2.imwrite('img_text.png',img_gray)
 
